@@ -4,34 +4,60 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body id="dest">
+  <div class="logo">
+    <img src="assets\shared\logo.svg" alt="logo">
+    <hr>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="links">
+    <a href="index.html" class="link"><strong>00</strong> Home</a>
+    <a href="#" class="link active"><strong>01</strong> Destination</a>
+    <a href="crew-commander.html" class="link"><strong>02</strong> Crew</a>
+    <a href="technology-vehicle.html" class="link"><strong>03</strong> Technology</a>
+  </div>
 
-  01 Pick your destination
+  <h5 class="dest-opening"><strong><span class="dark">01</span> Pick your destination</strong></h5>
 
-  Moon
-  Mars
-  Europa
-  Titan
+  <img class="dest-img" src="assets/destination/image-mars.png" alt="moon-img">
 
-  Mars
+  <div class="dest-content">
+    <div class="destinations">
+      <a href="destination-moon.html" class="link">Moon</a>
+      <a href="#" class="link active">Mars</a>
+      <a href="destination-europa.html" class="link">Europa</a>
+      <a href="destination-titan.html" class="link">Titan</a>
+    </div>
 
-  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
-  the tallest planetary mountain in our solar system. It’s two and a half times 
-  the size of Everest!
+    <h2>Mars</h2>
+    <p>
+      Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons,
+      the tallest planetary mountain in our solar system. It’s two and a half times
+      the size of Everest!
+    </p>
+    <br>
+    <hr>
 
-  Avg. distance
-  225 mil. km
+    <table>
+      <tr>
+        <td class="s2">Avg. distance</td>
+        <td class="s2">Est. travel time</td>
+      </tr>
+      <tr>
+        <td class="s1">225 mil. km</td>
+        <td class="s1">9 months</td>
+      </tr>
+    </table>
+  </div>
 
-  Est. travel time
-  9 months
 </body>
 </html>

@@ -50,8 +50,8 @@ a {
   color: #FFFFFF;
   border-bottom: 5px solid #FFFFFF00;
 }
-a:hover {
-  border-bottom: 5px solid white;
+a:not(.active):hover {
+  border-bottom: 5px solid #FFFFFF66;
 }
 td {
     padding-right: 50px;
@@ -94,6 +94,9 @@ hr {
   width: calc(100% - 100px);
   margin: 24px 0 24px 48px;
 }
+.active {
+  border-bottom: 5px solid white;
+}
 .dark {
   color: #505660;
 }
@@ -133,9 +136,6 @@ hr {
   width: auto;
   text-align: center;
   margin: 0 50px 0 0 ;
-}
-.link:hover {
-  font-weight: bolder;
 }
 .links {
   backdrop-filter: blur(8px);
