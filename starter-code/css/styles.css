@@ -40,7 +40,6 @@ p {
   font-family: 'Barlow Condensed', sans-serif;
   letter-spacing: 2.7px;
   color: #FFFFFF;
-  text-align: justify;
 }
 a {
   font-size: 1.3rem;
@@ -138,9 +137,9 @@ hr {
   margin: 0 50px 0 0 ;
 }
 .links {
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(6px);
   color: #D0D6F9;
-  background-color: #8888FF0C;
+  background-color: #8888FF0B;
   position: fixed;
   top: 50px;
   right: 0px;
@@ -180,10 +179,57 @@ hr {
   top: 210px;
   left: 180px;
 }
+.crew-img {
+  position: absolute;
+  right: 10%;
+  bottom: 0;
+  height: 600px;
+}
+.crew-opening {
+  position: absolute;
+  top: 210px;
+  left: 180px;
+}
+.crew-content {
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  bottom: 100px;
+  width: 500px;
+}
+.crew-paragraph{
+  width: 450px;
+}
+.crew-content h4 {
+  color: grey;
+}
+.crew-links {
+  width: auto;
+  margin-top: 60px;
+}
+.clink {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background-color: #DDDDFF33;
+  border-bottom: 0 solid #FFFFFF00;
+  margin-right: 15px;
+}
+.clink.active {
+  background-color: #DDDDFF;
+}
+.clink:not(.active):hover {
+  background-color: #DDDDFF88;
+  border-bottom: 0 solid #FFFFFF00 !Important;
+}
 /************************** Identifiers **************************/
 #index {
   background-image: url("../assets/home/background-home-desktop.jpg");
 }
 #dest {
   background-image: url("../assets/destination/background-destination-desktop.jpg");
+}
+#crew {
+  background-image: url("../assets/crew/background-crew-desktop.jpg");
 }
