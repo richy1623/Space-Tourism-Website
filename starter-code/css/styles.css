@@ -11,22 +11,22 @@ h1, h2, h3, h4, h5{
 }
 h1 {
   font-size: 150px;
-  font-family: 'Bellefair', serif;;
+  font-family: 'Bellefair', serif;
   color: #FFFFFF;
 }
 h2 {
   font-size: 100px;
-  font-family: 'Bellefair', serif;;
+  font-family: 'Bellefair', serif;
   color: #FFFFFF;
 }
 h3 {
   font-size: 56px;
-  font-family: 'Bellefair', serif;;
+  font-family: 'Bellefair', serif;
   color: #FFFFFF;
 }
 h4 {
   font-size: 32px;
-  font-family: 'Bellefair', serif;;
+  font-family: 'Bellefair', serif;
   color: #FFFFFF;
 }
 h5 {
@@ -64,7 +64,7 @@ hr {
 /************************** Classes **************************/
 .s1 {
   font-size: 28px;
-  font-family: 'Bellefair', serif;;
+  font-family: 'Bellefair', serif;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -193,9 +193,9 @@ hr {
 .crew-content {
   display: inline-block;
   position: absolute;
-  left: 200px;
-  bottom: 100px;
-  width: 500px;
+  left: 150px;
+  bottom: 80px;
+  width: auto;
 }
 .crew-paragraph{
   width: 450px;
@@ -212,7 +212,7 @@ hr {
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background-color: #DDDDFF33;
+  background-color: #CCCCDD33;
   border-bottom: 0 solid #FFFFFF00;
   margin-right: 15px;
 }

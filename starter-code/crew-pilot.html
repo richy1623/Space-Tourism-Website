@@ -4,25 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body id="crew">
+  <div class="logo">
+    <img src="assets\shared\logo.svg" alt="logo">
+    <hr>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <div class="links">
+    <a href="index.html" class="link"><strong>00</strong> Home</a>
+    <a href="destination-moon.html" class="link"><strong>01</strong> Destination</a>
+    <a href="#" class="link  active"><strong>02</strong> Crew</a>
+    <a href="technology-vehicle.html" class="link"><strong>03</strong> Technology</a>
+  </div>
+  <img class="crew-img" src="assets\crew\image-douglas-hurley.png" alt="moon-img">
 
-  02 Meet your crew
+  <h5 class="crew-opening"><strong><span class="dark">02</span> Meet your crew</strong></h5>
+  <div class="crew-content">
+    <h4>Pilot</h4>
+    <h3>Victor Glover</h3>
+    <p class="crew-paragraph">
+      Pilot on the first operational flight of the SpaceX Crew Dragon to the
+      International Space Station. Glover is a commander in the U.S. Navy where
+      he pilots an F/A-18.He was a crew member of Expedition 64, and served as a
+      station systems flight engineer.
+    </p>
+    <br>
+    <div class="crew-links">
+      <a href="crew-commander.html" class="clink"></a>
+      <a href="crew-engineer.html" class="clink"></a>
+      <a href="#" class="clink active"></a>
+      <a href="crew-specialist.html" class="clink"></a>
+    </div>
+  </div>
 
-  Pilot
-  Victor Glover
-
-  Pilot on the first operational flight of the SpaceX Crew Dragon to the 
-  International Space Station. Glover is a commander in the U.S. Navy where 
-  he pilots an F/A-18.He was a crew member of Expedition 64, and served as a 
-  station systems flight engineer. 
 </body>
 </html>
