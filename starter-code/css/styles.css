@@ -1,4 +1,13 @@
 /************************** Tags **************************/
+@font-face {
+  font-family: "Bellefair1";
+  src: url("Bellefair-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'BarlowCondensed';
+  src: url("../assets/fonts/BarlowCondensed.woff2") format('woff2');
+}
+
 body {
   background-color: #0B0D17;
   background-repeat: no-repeat;
@@ -11,40 +20,40 @@ h1, h2, h3, h4, h5{
 }
 h1 {
   font-size: 150px;
-  font-family: 'Bellefair', serif;
+  font-family: 'Bellefair1', serif;
   color: #FFFFFF;
 }
 h2 {
   font-size: 100px;
-  font-family: 'Bellefair', serif;
+  font-family: 'Bellefair1', serif;
   color: #FFFFFF;
 }
 h3 {
   font-size: 56px;
-  font-family: 'Bellefair', serif;
+  font-family: 'Bellefair1', serif;
   color: #FFFFFF;
 }
 h4 {
   font-size: 32px;
-  font-family: 'Bellefair', serif;
+  font-family: 'Bellefair1', serif;
   color: #FFFFFF;
 }
 h5 {
   font-size: 28px;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'BarlowCondensed', cursive;
   letter-spacing: 4.75px;
   color: #FFFFFF;
 }
 p {
   font-size: 16px;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'BarlowCondensed', sans-serif;
   letter-spacing: 2.7px;
   color: #FFFFFF;
 }
 a {
   font-size: 1.3rem;
   text-decoration: none;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'BarlowCondensed', sans-serif;
   letter-spacing: 2.7px;
   color: #FFFFFF;
   border-bottom: 5px solid #FFFFFF00;
@@ -64,13 +73,13 @@ hr {
 /************************** Classes **************************/
 .s1 {
   font-size: 28px;
-  font-family: 'Bellefair', serif;
+  font-family: 'Bellefair1', serif;
   color: #FFFFFF;
   text-transform: uppercase;
 }
 .s2 {
   font-size: 14px;
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: 'BarlowCondensed', sans-serif;
   letter-spacing: 2.35px;
   color: #FFFFFF;
   text-transform: uppercase;
@@ -132,7 +141,7 @@ hr {
   display: inline-block;
   height: 95px;
   line-height: 95px;
-  width: auto;
+  width: 135px;
   text-align: center;
   margin: 0 50px 0 0 ;
 }
@@ -173,9 +182,12 @@ hr {
   top: 0px;
   height: 50px;
   line-height: 50px;
+  width: 65px;
+  margin: 0 30px 0 0;
 }
 .dest-opening {
   position: absolute;
+  width: 360px;
   top: 210px;
   left: 180px;
 }
