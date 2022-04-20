@@ -56,10 +56,6 @@ a {
   font-family: 'BarlowCondensed', sans-serif;
   letter-spacing: 2.7px;
   color: #FFFFFF;
-  border-bottom: 5px solid #FFFFFF00;
-}
-a:not(.active):hover {
-  border-bottom: 5px solid #FFFFFF66;
 }
 td {
     padding-right: 50px;
@@ -102,9 +98,6 @@ hr {
   width: calc(100% - 100px);
   margin: 24px 0 24px 48px;
 }
-.active {
-  border-bottom: 5px solid white;
-}
 .dark {
   color: #505660;
 }
@@ -143,7 +136,11 @@ hr {
   line-height: 95px;
   width: 135px;
   text-align: center;
-  margin: 0 50px 0 0 ;
+  margin: 0 40px 0 0 ;
+  border-bottom: 5px solid #FFFFFF00;
+}
+.link.active {
+  border-bottom: 5px solid white;
 }
 .links {
   backdrop-filter: blur(6px);
@@ -152,9 +149,12 @@ hr {
   position: fixed;
   top: 50px;
   right: 0px;
-  width: 55%;
+  width: 60%;
   height: 100px;
-  padding-left: 150px;
+  padding-left: 120px;
+}
+.link:not(.active):hover {
+  border-bottom: 5px solid #FFFFFF66;
 }
 .home-text {
   width: 450px;
@@ -193,9 +193,9 @@ hr {
 }
 .crew-img {
   position: absolute;
-  right: 10%;
+  right: 12%;
   bottom: 0;
-  height: 600px;
+  height: 550px;
 }
 .crew-opening {
   position: absolute;
@@ -205,12 +205,9 @@ hr {
 .crew-content {
   display: inline-block;
   position: absolute;
-  left: 150px;
+  left: 180px;
   bottom: 80px;
   width: auto;
-}
-.crew-paragraph{
-  width: 450px;
 }
 .crew-content h4 {
   color: grey;
@@ -223,7 +220,7 @@ hr {
   display: inline-block;
   width: 20px;
   height: 20px;
-  border-radius: 20px;
+  border-radius: 50%;
   background-color: #CCCCDD33;
   border-bottom: 0 solid #FFFFFF00;
   margin-right: 15px;
@@ -235,6 +232,57 @@ hr {
   background-color: #DDDDFF88;
   border-bottom: 0 solid #FFFFFF00 !Important;
 }
+.technology-img {
+  position: absolute;
+  right: 0;
+  bottom: 80px;
+  width: 450px;
+  height: 450px;
+}
+.opening {
+  position: absolute;
+  width: 360px;
+  top: 210px;
+  left: 180px;
+}
+.tech-content {
+  display: inline-block;
+  position: absolute;
+  left: 320px;
+  bottom: 180px;
+  width: auto;
+}
+.standard-paragraph{
+  width: 450px;
+  height: 125px;
+}
+.tech-links {
+  display: inline-block;
+  position: absolute;
+  left: 180px;
+  bottom: 180px;
+  width: 62px;
+
+}
+.tlink {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-color: #FFFFFF00;
+  border: 1px solid grey;
+}
+.tlink.active {
+  background-color: #DDDDFF;
+  color: #0B0D17;
+}
+.tlink:not(.active):hover {
+  border-color: white;
+}
 /************************** Identifiers **************************/
 #index {
   background-image: url("../assets/home/background-home-desktop.jpg");
@@ -244,4 +292,7 @@ hr {
 }
 #crew {
   background-image: url("../assets/crew/background-crew-desktop.jpg");
+}
+#tech {
+  background-image: url("../assets/technology/background-technology-desktop.jpg");
 }
